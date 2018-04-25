@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		759C2D2D206F880700400511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 759C2D2C206F880700400511 /* AppDelegate.m */; };
+		759C2D2F206F880700400511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759C2D2E206F880700400511 /* Assets.xcassets */; };
+		759C2D32206F880700400511 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 759C2D30206F880700400511 /* MainMenu.xib */; };
+		759C2D35206F880700400511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 759C2D34206F880700400511 /* main.m */; };
+		759C2D40206FAB4300400511 /* CGWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 759C2D3F206FAB4300400511 /* CGWindow.m */; };
+		759C2D49206FAC6800400511 /* CGWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759C2D48206FAC6800400511 /* CGWindowController.m */; };
+		759C2D4E20701FA600400511 /* InitDraw.c in Sources */ = {isa = PBXBuildFile; fileRef = 759C2D4D20701FA600400511 /* InitDraw.c */; };
+		759C2D5020739D8800400511 /* DrawCircle.c in Sources */ = {isa = PBXBuildFile; fileRef = 759C2D4F20739D8800400511 /* DrawCircle.c */; };
+		759C2D532073A0AB00400511 /* Methods.c in Sources */ = {isa = PBXBuildFile; fileRef = 759C2D522073A0AB00400511 /* Methods.c */; };
+		759C2D552074D66900400511 /* DrawEllipse.c in Sources */ = {isa = PBXBuildFile; fileRef = 759C2D542074D66900400511 /* DrawEllipse.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		759C2D28206F880700400511 /* qwu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qwu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		759C2D2B206F880700400511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		759C2D2C206F880700400511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		759C2D2E206F880700400511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		759C2D31206F880700400511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		759C2D33206F880700400511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759C2D34206F880700400511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		759C2D36206F880700400511 /* qwu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = qwu.entitlements; sourceTree = "<group>"; };
+		759C2D3F206FAB4300400511 /* CGWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGWindow.m; sourceTree = "<group>"; };
+		759C2D44206FABA900400511 /* CGWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGWindow.h; sourceTree = "<group>"; };
+		759C2D48206FAC6800400511 /* CGWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGWindowController.m; sourceTree = "<group>"; };
+		759C2D4A206FAC8C00400511 /* CGWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGWindowController.h; sourceTree = "<group>"; };
+		759C2D4C20701FA600400511 /* InitDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitDraw.h; sourceTree = "<group>"; };
+		759C2D4D20701FA600400511 /* InitDraw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InitDraw.c; sourceTree = "<group>"; };
+		759C2D4F20739D8800400511 /* DrawCircle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DrawCircle.c; sourceTree = "<group>"; };
+		759C2D512073A0AB00400511 /* Methods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Methods.h; sourceTree = "<group>"; };
+		759C2D522073A0AB00400511 /* Methods.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Methods.c; sourceTree = "<group>"; };
+		759C2D542074D66900400511 /* DrawEllipse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DrawEllipse.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759C2D25206F880700400511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		759C2D1F206F880700400511 = {
+			isa = PBXGroup;
+			children = (
+				759C2D2A206F880700400511 /* qwu */,
+				759C2D29206F880700400511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		759C2D29206F880700400511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759C2D28206F880700400511 /* qwu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759C2D2A206F880700400511 /* qwu */ = {
+			isa = PBXGroup;
+			children = (
+				759C2D3E206FAAE400400511 /* GUI */,
+				759C2D4B20701F3D00400511 /* Core */,
+				759C2D2B206F880700400511 /* AppDelegate.h */,
+				759C2D2C206F880700400511 /* AppDelegate.m */,
+				759C2D2E206F880700400511 /* Assets.xcassets */,
+				759C2D30206F880700400511 /* MainMenu.xib */,
+				759C2D33206F880700400511 /* Info.plist */,
+				759C2D34206F880700400511 /* main.m */,
+				759C2D36206F880700400511 /* qwu.entitlements */,
+			);
+			path = qwu;
+			sourceTree = "<group>";
+		};
+		759C2D3E206FAAE400400511 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				759C2D4A206FAC8C00400511 /* CGWindowController.h */,
+				759C2D48206FAC6800400511 /* CGWindowController.m */,
+				759C2D44206FABA900400511 /* CGWindow.h */,
+				759C2D3F206FAB4300400511 /* CGWindow.m */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		759C2D4B20701F3D00400511 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				759C2D4C20701FA600400511 /* InitDraw.h */,
+				759C2D4D20701FA600400511 /* InitDraw.c */,
+				759C2D512073A0AB00400511 /* Methods.h */,
+				759C2D522073A0AB00400511 /* Methods.c */,
+				759C2D4F20739D8800400511 /* DrawCircle.c */,
+				759C2D542074D66900400511 /* DrawEllipse.c */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		759C2D27206F880700400511 /* qwu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759C2D39206F880700400511 /* Build configuration list for PBXNativeTarget "qwu" */;
+			buildPhases = (
+				759C2D24206F880700400511 /* Sources */,
+				759C2D25206F880700400511 /* Frameworks */,
+				759C2D26206F880700400511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qwu;
+			productName = qwu;
+			productReference = 759C2D28206F880700400511 /* qwu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759C2D20206F880700400511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ytrewq;
+				TargetAttributes = {
+					759C2D27206F880700400511 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 759C2D23206F880700400511 /* Build configuration list for PBXProject "qwu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 759C2D1F206F880700400511;
+			productRefGroup = 759C2D29206F880700400511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759C2D27206F880700400511 /* qwu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		759C2D26206F880700400511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759C2D2F206F880700400511 /* Assets.xcassets in Resources */,
+				759C2D32206F880700400511 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759C2D24206F880700400511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759C2D35206F880700400511 /* main.m in Sources */,
+				759C2D40206FAB4300400511 /* CGWindow.m in Sources */,
+				759C2D552074D66900400511 /* DrawEllipse.c in Sources */,
+				759C2D2D206F880700400511 /* AppDelegate.m in Sources */,
+				759C2D4E20701FA600400511 /* InitDraw.c in Sources */,
+				759C2D532073A0AB00400511 /* Methods.c in Sources */,
+				759C2D49206FAC6800400511 /* CGWindowController.m in Sources */,
+				759C2D5020739D8800400511 /* DrawCircle.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		759C2D30206F880700400511 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759C2D31206F880700400511 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		759C2D37206F880700400511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		759C2D38206F880700400511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		759C2D3A206F880700400511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = qwu/qwu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = qwu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BMSTU.qwu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		759C2D3B206F880700400511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = qwu/qwu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = qwu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BMSTU.qwu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759C2D23206F880700400511 /* Build configuration list for PBXProject "qwu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759C2D37206F880700400511 /* Debug */,
+				759C2D38206F880700400511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759C2D39206F880700400511 /* Build configuration list for PBXNativeTarget "qwu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759C2D3A206F880700400511 /* Debug */,
+				759C2D3B206F880700400511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 759C2D20206F880700400511 /* Project object */;
+}
